@@ -84,15 +84,16 @@ Every curated bundle includes:
 ## 4. Built-in Test Personas (Fail-Safe Demo System)
 To guarantee 100% demo uptime and eliminate judge friction (e.g. low-light webcam issues or lack of camera permissions), the app includes 3 pre-computed hero models:
 
-1. **Persona 1: Elena (Cool Fair / True Winter)**
-   - *Undertone:* Cool | *Tone:* Fair | *Palette:* Royal Sapphire, Emerald, Silver.
-   - *Featured Bundle:* Midnight Silk Blazer + Velvet Plum Lipstick + Platinum Choker.
-2. **Persona 2: Aaliyah (Warm Deep / Deep Autumn)**
-   - *Undertone:* Warm | *Tone:* Deep | *Palette:* Terracotta, Forest Green, Warm Gold.
-   - *Featured Bundle:* Terracotta Draped Trench + Bronze Berry Gloss + Hammered Gold Hoops.
-3. **Persona 3: Maya (Neutral Olive / Soft Summer)**
-   - *Undertone:* Neutral-Cool | *Tone:* Medium Olive | *Palette:* Sage Green, Dusty Rose, Rose Gold.
-   - *Featured Bundle:* Sage Linen Slip Dress + Dusty Rose Satin Lip + Rose Gold Cuff.
+1. **Persona 1: Elena Rostova (Cool Fair / True Winter)**
+   - *Undertone:* Cool (-80) | *Tone:* Fair-Light | *Palette:* Royal Sapphire, Emerald, Silver.
+   - *Featured Bundle:* Royal Navy Bespoke Wool Blazer + Velvet Plum Lipstick + Platinum Cufflinks.
+2. **Persona 2: Marcus Vance (Warm Golden / Deep Autumn)**
+   - *Undertone:* Warm (+58) | *Tone:* Medium Olive | *Palette:* Terracotta, Warm Amber, Antique Gold.
+   - *Featured Bundle:* Camel Wool Tailored Blazer + Terracotta Tint + Antique Gold Signet.
+3. **Persona 3: Priya Sharma (Golden Olive / Soft Summer)**
+   - *Undertone:* Neutral-Cool | *Tone:* Golden Olive | *Palette:* Slate Gray, Rosewood Mauve, Sterling Silver.
+   - *Featured Bundle:* Slate Gray Minimalist Blazer + Rosewood Sheer Lip + Sterling Silver Cufflinks.
+
 
 ---
 

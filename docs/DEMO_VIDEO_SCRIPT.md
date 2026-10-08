@@ -28,10 +28,11 @@
 
 ### Scene 3: The Color Science & Seasonal Palette (1:05 – 1:35)
 - **Visual:** Transition to the **Color Diagnosis Report**.
-- **Action:** Mouse hovers over the **Melanin Undertone Axis** showing Elena's cool spectrum placement.
-- **Action:** Highlight the 5 recommended jewel-tone swatches (*Royal Sapphire, Deep Emerald, Icy Silver*) and the 2 clashing colors (*Mustard Yellow, Muted Terracotta*) with the red alert explaining why they wash out her skin.
+- **Action:** Point to the **Melanin Undertone Axis** with its live spectrum badge. Drag the slider to demonstrate real-time tuning between Cool, Neutral, and Warm, showing how the recommended palette swatches and dermatological findings adapt on the fly.
+- **Action:** Click "Reset AI Value" to restore Elena's biometric calibration, highlighting the 5 recommended jewel-tone swatches (*Royal Sapphire, Deep Emerald, Icy Silver*) and the 2 clashing colors (*Mustard Yellow, Muted Terracotta*) with the alert explaining why they wash out her skin.
 - **Voiceover:**
-  > *"Rather than relying on generic quizzes, AuraTone translates dermatological data into Personal Color Theory. We identify the exact spectral frequencies that illuminate her complexion—like royal sapphire and deep emerald—while warning her against dissonant tones that cast sallow shadows."*
+  > *"Rather than relying on generic quizzes, AuraTone translates dermatological data into Personal Color Theory. We identify the exact spectral frequencies that illuminate her complexion—like royal sapphire and deep emerald—while warning her against dissonant tones. Shoppers can even fine-tune the interactive undertone slider to simulate seasonal shifts."*
+
 
 ---
 
