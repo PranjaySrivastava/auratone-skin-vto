@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useStore } from '../store/useStore';
+import { API_BASE } from '../config';
 import { X, Sparkles, Send, Bot, User, CheckCircle2 } from 'lucide-react';
 
 export default function StylistDrawer() {
@@ -33,7 +34,7 @@ export default function StylistDrawer() {
     setIsTyping(true);
 
     try {
-      const res = await fetch('http://localhost:5000/api/stylist/ask', {
+      const res = await fetch(`${API_BASE}/api/stylist/ask`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

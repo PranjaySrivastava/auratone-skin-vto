@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useStore } from '../store/useStore';
+import { API_BASE } from '../config';
 import { Sparkles, Scan, Activity } from 'lucide-react';
 
 export default function ScanningOverlay() {
@@ -80,7 +81,7 @@ export default function ScanningOverlay() {
       try {
         const clientTelemetry = await extractClientComplexion(userImage);
 
-        const response = await fetch('http://localhost:5000/api/skin/analyze', {
+        const response = await fetch(`${API_BASE}/api/skin/analyze`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

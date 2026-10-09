@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useStore } from '../store/useStore';
+import { API_BASE } from '../config';
 import { Camera, Upload, Sparkles, UserCheck, ArrowRight, Video, AlertCircle } from 'lucide-react';
 
 export default function CaptureStudio() {
@@ -23,7 +24,7 @@ export default function CaptureStudio() {
 
   // Fetch preset personas from backend on mount
   useEffect(() => {
-    fetch('http://localhost:5000/api/personas')
+    fetch(`${API_BASE}/api/personas`)
       .then(res => res.json())
       .then(data => {
         if (data.success && data.data.length > 0) {

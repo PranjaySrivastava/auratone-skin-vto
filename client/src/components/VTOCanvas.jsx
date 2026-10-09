@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useStore } from '../store/useStore';
+import { API_BASE } from '../config';
 import { Sparkles, SlidersHorizontal, User, Shirt, RefreshCw, AlertCircle } from 'lucide-react';
 
 export default function VTOCanvas() {
@@ -24,7 +25,7 @@ export default function VTOCanvas() {
     setApiErrorNotice(null);
 
     try {
-      const response = await fetch('http://localhost:5000/api/vto/try-on', {
+      const response = await fetch(`${API_BASE}/api/vto/try-on`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
